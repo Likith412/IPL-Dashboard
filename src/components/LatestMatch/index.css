@@ -1,0 +1,136 @@
+.latest-match-details-container {
+  background-color: #0f172a;
+  border-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .latest-match-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.latest-match-details-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-left {
+  width: 70%;
+}
+
+.top-right {
+  width: 25%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .latest-match-details-top {
+    width: 70%;
+  }
+
+  .top-left {
+    width: 50%;
+  }
+
+  .top-right {
+    width: 45%;
+  }
+}
+
+.latest-match-competing-team-name {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.latest-match-date {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.latest-match-venue {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.latest-match-result {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .latest-match-competing-team-name {
+    font-size: 20px;
+  }
+
+  .latest-match-date {
+    font-size: 18px;
+  }
+
+  .latest-match-venue {
+    font-size: 14px;
+  }
+
+  .latest-match-result {
+    font-size: 14px;
+  }
+}
+
+.latest-match-competing-team-logo {
+  width: 100%;
+  max-width: 150px;
+}
+
+.seperator {
+  border: none;
+  border-top: 2px solid #475569;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .seperator {
+    display: none;
+  }
+}
+
+.latest-match-details-bottom {
+  padding: 20px;
+}
+
+.bottom-heading {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.bottom-sub-heading {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .bottom-heading {
+    font-size: 16px;
+  }
+
+  .bottom-sub-heading {
+    font-size: 14px;
+  }
+}

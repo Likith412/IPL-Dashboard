@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.not-found-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-text {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .not-found-text {
+    font-size: 50px;
+  }
+}
