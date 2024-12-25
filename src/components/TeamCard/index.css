@@ -31,11 +31,18 @@
 
 .team-img-container {
   width: 20%;
-  margin-right: 15px;
+  min-width: 35px;
+  margin-right: 10px;
 }
 
 .team-img {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .team-img-container {
+    margin-right: 15px;
+  }
 }
 
 .team-name {
